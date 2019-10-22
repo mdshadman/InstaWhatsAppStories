@@ -47,10 +47,7 @@ class WhatsAppChatConatiner extends React.Component {
                                 <Text style={styles.userDesc} numberOfLines={1}>{user.description}</Text>
                             </Body>
                             <Right style={[styles.rightSection]}>
-                                {/* <Text style={styles.lastchat}>{user.date}</Text>
-                            {user.time && <Text style={[styles.lastchat, styles.time]}>{user.time}</Text>}
-                            {user.past && <Text style={styles.lastchat}>{user.past}</Text>}
-                            {user.unreadMsg && <Badge style={styles.badgeSection}><Text>{user.unreadMsg}</Text></Badge>} */}
+
                             </Right>
                         </ListItem>
                     }

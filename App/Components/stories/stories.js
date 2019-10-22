@@ -1,12 +1,4 @@
-/**
- * Star - React-Native Star App Stater(https://www.enappd.com)
- *
- * Copyright © 2019-present Enappd. All rights reserved.
- *
- * This source code is licensed as per the terms found in the
- * LICENSE.md file in the root directory of this source .
- *
- */
+
 import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
 import { Thumbnail } from 'native-base';

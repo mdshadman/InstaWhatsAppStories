@@ -57,31 +57,7 @@ const InstaCardView = (props) => {
                                     style={styles.cardImage}
                                 />
                             }
-                            {/* {instaCards.video &&
-                                <View>
-                                    <Video
-                                        source={instaCards.video}
-                                        rate={1.0}
-                                        volume={1.0}
-                                        isMuted={isMuted}
-                                        resizeMode="cover"
-                                        shouldPlay={shouldPlay}
-                                        isLooping
-                                        style={styles.videoImage}
-                                    />
-                                    <View style={styles.soundPLay}>
-                                        {isMuted ?
-                                            <Button transparent onPress={goToPlaySound}>
-                                                <Icon name='volume-off' style={styles.volumeIcon} />
-                                            </Button> :
 
-                                            <Button transparent onPress={goToPlaySound}>
-                                                <Icon name='volume-high' style={styles.volumeIcon} />
-                                            </Button>
-                                        }
-                                    </View>
-                                </View>
-                            } */}
                         </CardItem>
                         <CardItem style={styles.iconHeight}>
                             <Left>
